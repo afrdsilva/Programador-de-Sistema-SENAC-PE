@@ -1,0 +1,21 @@
+Algoritmo "semnome"
+
+//5) Escrever um algoritmo que lê um número inteiro e imprime os próximos dez números pares
+//existentes.
+Var
+// Seção de Declarações das variáveis 
+        num, par: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+          escreval(" informe um numero")
+          leia(num)
+           enquanto par < 10 faca
+                    se num % 2=0 entao
+                    escreval(num)
+                    par<- par+1
+                    fimse
+                    num<- num+1
+           fimenquanto
+
+Fimalgoritmo

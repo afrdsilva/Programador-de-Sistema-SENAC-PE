@@ -1,0 +1,61 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 14/10/2021
+Var
+   // Seção de Declarações das variáveis
+   codigo, valor,qtd : real
+
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval("-----------------------------LISTA DE PRODUTOS----------------- ")
+
+   escreval("--------------------------------------------------------------- ")
+
+   escreval("CODIGO 01 - CANETA----- R$ 1,20--------------------------------")
+
+   escreval("CODIGO 02 - LÁPIS ------R$ 0,80-------------------------------")
+
+   escreval("CODIGO 03 - BORRACHA ---R$ 1,00--------------------------------")
+
+   escreval("CODIGO 04 - REGUA  ---- R$ 1,50--------------------------------")
+
+   escreva(" Com base na lista acima , informe o CODIGO do Produto: ")
+   leia(codigo)
+
+   escolha (codigo)
+   caso   1
+      escreva(" Produto : CANETA -- R$ 1,20 Und ")
+      escreval("Informe a quantidade")
+      leia(qtd)
+      valor<-1.20*qtd
+      escreva(" O valor da sua compra é R$: ",valor)
+   caso   2
+      escreva(" Produto : LÁPIS -- R$ 0,80 Und ")
+      escreval("Informe a quantidade")
+      leia(qtd)
+      valor<-0.80*qtd
+      escreva(" O valor da sua compra é R$: ",valor)
+
+
+   caso   3
+      escreva(" Produto : Borracha -- R$ 1,00 Und ")
+      escreval("Informe a quantidade")
+      leia(qtd)
+      valor<-1.00*qtd
+      escreva(" O valor da sua compra é R$: ",valor)
+
+
+   caso   4
+      escreva(" Produto : Regua -- R$ 1,50 Und ")
+      escreval("Informe a quantidade")
+      leia(qtd)
+      valor<-1.50*qtd
+      escreva(" O valor da sua compra é R$: ",valor)
+
+   fimescolha
+
+Fimalgoritmo

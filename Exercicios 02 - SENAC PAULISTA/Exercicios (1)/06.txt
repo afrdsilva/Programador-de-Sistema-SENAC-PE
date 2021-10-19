@@ -1,0 +1,24 @@
+Algoritmo "semnome"
+//Escrever um programa que imprime um elemento da sequência de Fibonacci,
+//dado o número do elemento.
+Var
+// Seção de Declarações das variáveis 
+  numAnt,numAtual,numFib, numDig,cont : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+               escreva("Informe o numero : ")
+               leia(numDig)
+                          cont<-0
+                          numAnt<-numDig-1
+                          numAtual<-numDig
+                          enquanto cont<numDig faca
+                          escreva(numFib)
+                          cont<-cont+1
+                          numFib<-numAnt+numAtual
+                          numAnt<-numAtual
+                          numAtual<-numFib
+                          fimenquanto
+               
+
+Fimalgoritmo

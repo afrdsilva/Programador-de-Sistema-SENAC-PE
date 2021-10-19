@@ -1,0 +1,43 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 13/10/2021
+//2) Escreva um algoritmo que leia a idade de uma pessoa de diga se ela:
+//a) Pode ou não votar; (permitido votar com idade de 16 anos a cima)
+//b) É de maior;
+//c) Se já pode tirar habilitação (permitido votar com idade de 18 anos a cima)
+
+Var
+   // Seção de Declarações das variáveis
+
+   idade : inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval(" ********************QUESTAO 02 -- A *************")
+   escreval(" Informe a sua idade ")
+   leia(idade)
+   se (idade > 15) entao
+      escreval(" Ja é permitido votar")
+   senao
+      escreval(" Ainda não é permitido votar")
+   fimse
+
+
+   escreval("**********************QUESTAO 02 -- B *************")
+   se (idade>18) entao
+      escreval(" E de Maior")
+   senao
+      escreval("E de Menor")
+   fimse
+
+
+
+   escreva("**********************QUESTAO 02 -- C *************")
+   se (idade>17)      entao
+      escreval(" Você já pode tirar a habilitação")
+   senao
+      escreval(" Você ainda não pode tirar a habilitação")
+   fimse
+Fimalgoritmo

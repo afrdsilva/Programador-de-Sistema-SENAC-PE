@@ -1,0 +1,32 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 14/10/2021
+Var
+   // Seção de Declarações das variáveis
+   kwh,valorConta : real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   escreval("informe a quantidade de kwh do estabelecimento")
+   leia(kwh)
+   se (kwh<=300) entao
+      valorConta<-kwh*1.25
+      escreva("O valor da conta é : R$ ",valorConta)
+   senao
+      se (kwh>300)e (kwh<=600) entao
+         valorConta<-kwh*1.50
+         escreva("O valor da conta é : R$ ",valorConta)
+      senao
+         se (kwh>600)e (kwh<=1000) entao
+            valorConta<-kwh*1.75
+            escreva("O valor da conta é : R$ ",valorConta)
+         fimse
+      fimse
+   fimse
+
+
+Fimalgoritmo

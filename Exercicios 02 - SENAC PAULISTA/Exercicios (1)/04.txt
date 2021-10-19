@@ -1,0 +1,17 @@
+Algoritmo "semnome"
+//faça um algoritmo que apresente todos os números divisíveis por 4 que
+//sejam menores que 200.
+var valor : inteiro
+inicio
+   valor <- 200
+   enquanto valor>1 faca
+      se ((valor%4) <> 0) entao
+         valor <- valor - 1
+      senao
+         se (valor < 200) entao
+            escreva (valor)
+         fimse
+         valor <- valor - 1
+      fimse
+   fimenquanto
+fimalgoritmo

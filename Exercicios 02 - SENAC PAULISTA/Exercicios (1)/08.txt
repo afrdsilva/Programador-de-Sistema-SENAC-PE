@@ -1,0 +1,48 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 14/10/2021
+Var
+   // Seção de Declarações das variáveis
+   n1,n2,n3,n4,n5, soma :real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreva(" Digite a seguencia de 5 numeros")
+   escreval("Digite o primeiro numero : ")
+   leia(n1)
+   limpatela
+   escreval(" Digite o segundo numero : ")
+   leia(n2)
+   limpatela
+   escreval(" Digite o terceiro numero : ")
+   leia(n3)
+   limpatela
+   escreval(" Digite o quarto numero : ")
+   leia(n4)
+   limpatela
+   escreval(" Digite o quinto numero : ")
+   leia(n5)
+   limpatela
+   soma<-n1+n2+n3+n4+n5
+   se (n1>n2) e (n1>n3) e (n1>n4) e (n1>n5)  entao
+      escreval("o maior numero é o ",n1)
+   senao
+      se (n2>n1) e (n2>n3) e (n2>n4) e (n2>n5) entao
+         escreval("o maior numero é o ",n2)
+      senao
+         se (n3>n1) e (n3>n2) e (n3>n4) e (n3>n5) entao
+            escreval("o maior numero é o ", n3)
+         senao
+            se (n4>n1) e (n4>n2) e (n4>n3) e (n4>n5) entao
+               escreval("o maior numero é o ",n4)
+            senao
+               escreval("o maior numero é o ",n5)
+            fimse
+         fimse
+      fimse
+   fimse
+   escreval(" a Soma dos valores digitados é :" , soma)
+Fimalgoritmo

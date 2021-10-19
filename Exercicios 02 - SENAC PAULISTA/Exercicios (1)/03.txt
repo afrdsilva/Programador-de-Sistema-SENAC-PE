@@ -1,0 +1,18 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 13/10/2021
+Var
+// Seção de Declarações das variáveis 
+result,num1 : real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+     escreval("Informe o valor que deseja saber a 5ª Potencia : ")
+     leia(num1)
+result<- Exp(num1,5)
+escreval("O Resultado é : ",result)
+
+Fimalgoritmo
